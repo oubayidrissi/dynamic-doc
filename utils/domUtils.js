@@ -4,8 +4,9 @@ module.exports = (i, utilities) => {
 
     return {
         /**
+         * @namespace domUtils
+         * @description
          * Executes a given JavaScript callback in the context of the specified page.
-         * 
          * This allows users to run arbitrary JavaScript code on the webpage 
          * represented by the Puppeteer `page` object. It captures the result of the 
          * callback execution and handles any errors that may occur during the process.
